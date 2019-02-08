@@ -1,4 +1,5 @@
-use {Constraint, Entity, EntityComponentManager, LayoutObject, LayoutResult, Theme};
+use {Constraint, LayoutObject, LayoutResult, Theme};
+use dces::entity::{Entity, EntityComponentManager};
 
 use properties::Rect;
 

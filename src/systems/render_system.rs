@@ -2,7 +2,8 @@ use std::cell::{Cell, RefCell};
 use std::collections::BTreeMap;
 use std::rc::Rc;
 
-use dces::{Entity, EntityComponentManager, System};
+use dces::entity::{Entity, EntityComponentManager};
+use dces::system::System;
 
 use application::Tree;
 use backend::Backend;

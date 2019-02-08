@@ -3,7 +3,8 @@ use std::rc::Rc;
 
 use std::collections::BTreeMap;
 
-use dces::{Entity, EntityComponentManager, System};
+use dces::entity::{Entity, EntityComponentManager};
+use dces::system::System;
 
 use application::Tree;
 use properties::{Enabled, Focused, Pressed, Selected};

@@ -1,4 +1,4 @@
-use dces::Entity;
+use dces::entity::Entity;
 
 #[derive(Default)]
 /// The `Global` struct is used to define global `properties` that could be accsed application width.

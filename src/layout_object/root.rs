@@ -1,4 +1,4 @@
-use dces::{Entity, EntityComponentManager};
+use dces::entity::{Entity, EntityComponentManager};
 use layout_object::{LayoutObject, LayoutResult};
 use properties::Constraint;
 use theme::{Selector, Theme};

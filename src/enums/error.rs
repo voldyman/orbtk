@@ -1,4 +1,4 @@
-use Entity;
+use dces::entity::Entity;
 
 /// Used as return type if a requested widget is not found on the tree.
 #[derive(Debug, PartialEq, Eq)]

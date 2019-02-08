@@ -1,7 +1,7 @@
 //! This module contains all layout objects used in OrbTk. Layout objects are used to define the layout of a widget, how
 //! to place and order its children.
 
-use dces::{Entity, EntityComponentManager};
+use dces::entity::{Entity, EntityComponentManager};
 
 use properties::Constraint;
 use systems::LayoutResult;

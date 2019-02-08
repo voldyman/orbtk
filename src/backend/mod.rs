@@ -5,7 +5,7 @@
 use std::cell::{Cell, RefCell};
 use std::rc::Rc;
 
-use dces::World;
+use dces::world::World;
 use orbclient::Color;
 
 use application::Tree;

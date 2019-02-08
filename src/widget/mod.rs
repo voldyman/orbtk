@@ -5,7 +5,8 @@ use std::cell::{Cell, RefCell};
 use std::collections::HashMap;
 use std::rc::Rc;
 
-use dces::{Component, ComponentBox, Entity, EntityComponentManager, NotFound, SharedComponentBox};
+use dces::entity::{Component, ComponentBox, Entity, EntityComponentManager, SharedComponentBox};
+use dces::error::NotFound;
 
 use application::Tree;
 use enums::ParentType;

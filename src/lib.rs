@@ -5,7 +5,7 @@
 
 extern crate dces;
 
-pub use dces::prelude::*;
+//pub use dces::prelude::*;
 
 extern crate cssparser;
 #[macro_use]

@@ -1,7 +1,8 @@
 use std::cell::RefCell;
 use std::collections::BTreeMap;
 
-use {Entity, NotFound, EntityContainer};
+use dces::entity::{Entity, EntityContainer};
+use dces::error::NotFound;
 
 /// Base data structure to manage the widget entities of a window in a tree based structure.
 #[derive(Default)]
@@ -24,7 +25,7 @@ impl Tree {
         if let Some(p) = self.children.get_mut(&parent) {
             p.push(child);
         } else {
-            return Err(NotFound::Parent(parent));
+            return Err(NotFound::Entity(parent));
         }
 
         self.parent.insert(child, parent);

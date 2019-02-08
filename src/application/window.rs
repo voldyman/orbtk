@@ -3,7 +3,8 @@ use std::rc::Rc;
 
 use std::collections::BTreeMap;
 
-use dces::{Entity, World};
+use dces::entity::Entity;
+use dces::world::World;
 
 use application::{Application, Tree};
 use backend::{target_backend, BackendRunner};

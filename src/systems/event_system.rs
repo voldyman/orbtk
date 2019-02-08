@@ -6,7 +6,9 @@ use std::collections::BTreeMap;
 
 use application::Tree;
 use backend::Backend;
-use dces::{Entity, EntityComponentManager, System};
+use dces::entity::{Entity, EntityComponentManager};
+use dces::system::System;
+
 use event::{
     check_mouse_condition, ClickEvent, EventBox, EventHandler, EventStrategy, MouseDownEvent,
     MouseUpEvent,

@@ -1,5 +1,5 @@
 use backend::{FontMeasure, FONT_MEASURE};
-use dces::{Entity, EntityComponentManager};
+use dces::entity::{Entity, EntityComponentManager};
 use layout_object::LayoutObject;
 use properties::{Constraint, FontIcon};
 use theme::{Selector, Theme};
